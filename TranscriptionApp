@@ -1,6 +1,6 @@
 //always using the transcribed text and background information in the responses, you can modify the generate_response function in your TranscriptionApp class. 
 //Here's how you can achieve this: Modify Chat History Inclusion: Ensure that both the transcribed text and the background information are included in the chat history that is sent to the OpenAI API for generating responses. Update Response Generation: 
-//The response generation process should now consider the transcribed text (user's input) and the background information before generating a response.
+//The response generation process should now consider the transcribed text (user's input) and the background information before generating a response. 
 
 
     def generate_response(self, transcription):
